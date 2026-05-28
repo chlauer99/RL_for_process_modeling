@@ -3,7 +3,7 @@ import re
 import random
 from json import loads
 
-from BPIL.translation_definitions import meta_model_to_xml as mm_to_xml
+from BPIL.translation_definition import meta_model_to_xml as mm_to_xml
 
 
 class TranslationBpilToXml:
